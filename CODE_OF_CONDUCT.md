@@ -24,7 +24,7 @@
 
 ## 执行
 
-发现问题请通过仓库 issue 或私下联系维护者（GitHub: [@wst320727254-beep](https://github.com/wst320727254-beep)）。
+发现问题请通过仓库 issue 或私下联系维护者（GitHub: [@lanwang-ai](https://github.com/lanwang-ai)）。
 维护者有权删除不当评论、拒绝贡献，或临时/永久禁止任何参与者。
 
 ---

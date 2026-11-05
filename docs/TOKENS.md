@@ -57,7 +57,7 @@
 | `TAGLINE_ZH` | `"像论文，不像海报"` | 文档扉页 |
 | `TAGLINE_EN` | `"Reads like a paper, not a poster."` | 英文文档 |
 | `LICENSE` | `"MIT"` | pptx 文档属性、`pyproject.toml` |
-| `HOMEPAGE` | `"https://github.com/wst320727254-beep/deep-ocean-slides"` | pptx 注释属性、错误提示 |
+| `HOMEPAGE` | `"https://github.com/lanwang-ai/deep-ocean-slides"` | pptx 注释属性、错误提示 |
 
 `tokens.VERSION` 与 `pyproject.toml` 的 `version`、`CHANGELOG.md` 的最新条目必须三者一致；`tokens.VERSION` 同时是 `deepocean.__version__` 的来源。
 

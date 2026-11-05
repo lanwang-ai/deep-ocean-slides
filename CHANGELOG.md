@@ -104,5 +104,5 @@
 - `python-pptx >= 0.6.23` 与 `Pillow >= 9.0` 是运行期依赖；PyYAML 仅在读写 `.yaml` deck 时需要。
 - `import deepocean` 本身不导入 python-pptx：令牌、文档模型、单位与颜色工具可以在没有 Office 相关依赖的环境里独立使用。
 
-[Unreleased]: https://github.com/wst320727254-beep/deep-ocean-slides/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/wst320727254-beep/deep-ocean-slides/releases/tag/v1.0.0
+[Unreleased]: https://github.com/lanwang-ai/deep-ocean-slides/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/lanwang-ai/deep-ocean-slides/releases/tag/v1.0.0

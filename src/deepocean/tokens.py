@@ -39,7 +39,7 @@ VERSION = "1.0.0"
 TAGLINE_ZH = "像论文，不像海报"
 TAGLINE_EN = "Reads like a paper, not a poster."
 LICENSE = "MIT"
-HOMEPAGE = "https://github.com/wst320727254-beep/deep-ocean-slides"
+HOMEPAGE = "https://github.com/lanwang-ai/deep-ocean-slides"
 
 # --------------------------------------------------------------------------- #
 # Canvas & grid

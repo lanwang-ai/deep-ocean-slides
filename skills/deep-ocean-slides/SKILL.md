@@ -14,7 +14,7 @@ description: 完全离线地把论文 PDF、组会材料或一个主题做成 De
 ## 前置（只有一条）
 
 ```bash
-python -c "import deepocean" 2>/dev/null || pip install "deep-ocean-slides[yaml,paper] @ git+https://github.com/wst320727254-beep/deep-ocean-slides.git"
+python -c "import deepocean" 2>/dev/null || pip install "deep-ocean-slides[yaml,paper] @ git+https://github.com/lanwang-ai/deep-ocean-slides.git"
 ```
 
 - 需要 Python 3.9+。依赖只有 python-pptx / Pillow / PyYAML / pypdf，**无需任何密钥**。

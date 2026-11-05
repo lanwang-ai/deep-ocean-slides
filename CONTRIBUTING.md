@@ -23,7 +23,7 @@
 ## 1 环境搭建
 
 ```bash
-git clone https://github.com/wst320727254-beep/deep-ocean-slides.git
+git clone https://github.com/lanwang-ai/deep-ocean-slides.git
 cd deep-ocean-slides
 pip install -e ".[dev]"
 ```

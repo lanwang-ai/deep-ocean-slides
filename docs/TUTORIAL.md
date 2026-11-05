@@ -1,4 +1,4 @@
-﻿# 复刻与使用教程
+# 复刻与使用教程
 
 > **这份文件解决什么问题**：把 Deep Ocean 这套风格搬到你的机器上——不管你是想用本仓库的 CLI 直接出片，还是要在 PowerPoint / Keynote / Figma 里手工复刻，或者用 Python API 写自己的版式。六条路线互不排斥，可以混用。
 >
@@ -24,7 +24,7 @@
 **本包尚未发布到 PyPI**，请从 GitHub 克隆后以可编辑模式安装：
 
 ```bash
-git clone https://github.com/wst320727254-beep/deep-ocean-slides.git
+git clone https://github.com/lanwang-ai/deep-ocean-slides.git
 cd deep-ocean-slides
 pip install -e ".[yaml]"
 ```

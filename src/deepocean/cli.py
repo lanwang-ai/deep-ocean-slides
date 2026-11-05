@@ -412,7 +412,7 @@ def build_parser() -> argparse.ArgumentParser:
         description=f"{tokens.NAME} {tokens.NAME_ZH} · 学术风 16:9 幻灯片设计系统与生成工具链"
                     f"（{tokens.TAGLINE_ZH}）",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="更多用法见 https://github.com/wst320727254-beep/deep-ocean-slides",
+        epilog="更多用法见 https://github.com/lanwang-ai/deep-ocean-slides",
     )
     parser.add_argument("--version", action="version",
                         version=f"{PROG} {tokens.VERSION} ({tokens.NAME})")

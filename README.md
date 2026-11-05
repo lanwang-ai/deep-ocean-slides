@@ -5,7 +5,7 @@
 > **完全离线 · 不需要 API key · 零成本**：论文 PDF → 可编辑 `.pptx` + 单文件 HTML + 自动排版自检，
 > 全程本地完成（联网仅在你主动使用可选的 `--llm` 时才需要）。
 
-[![CI](https://github.com/wst320727254-beep/deep-ocean-slides/actions/workflows/ci.yml/badge.svg)](https://github.com/wst320727254-beep/deep-ocean-slides/actions/workflows/ci.yml)
+[![CI](https://github.com/lanwang-ai/deep-ocean-slides/actions/workflows/ci.yml/badge.svg)](https://github.com/lanwang-ai/deep-ocean-slides/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-1B3A5C.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-2E9BA6.svg)](pyproject.toml)
 [![Offline](https://img.shields.io/badge/offline-no%20API%20key-2E9BA6.svg)](#给朋友用两种装法)
@@ -57,7 +57,7 @@
 尚未发布到 PyPI，从源码安装：
 
 ```bash
-git clone https://github.com/wst320727254-beep/deep-ocean-slides.git
+git clone https://github.com/lanwang-ai/deep-ocean-slides.git
 cd deep-ocean-slides
 pip install -e ".[yaml,paper]"   # paper 只在你直接用 PDF 出初稿时才需要
 ```
@@ -68,7 +68,7 @@ pip install -e ".[yaml,paper]"   # paper 只在你直接用 PDF 出初稿时才�
 
 ```bash
 # 1. 安装（Python 3.9+，一条命令）
-pip install "deep-ocean-slides[yaml,paper] @ git+https://github.com/wst320727254-beep/deep-ocean-slides.git"
+pip install "deep-ocean-slides[yaml,paper] @ git+https://github.com/lanwang-ai/deep-ocean-slides.git"
 
 # 2. 配置自己的模型 key（不配也能用：退回离线骨架，只是不改写中文叙事）
 #    Windows PowerShell:
@@ -339,9 +339,9 @@ PR 需要跑通 `python -m pytest` 与 `deepocean check`（0 error）。提交�
 ```bibtex
 @software{deepocean_slides_2026,
   title  = {Deep Ocean Slides: an academic 16:9 deck design system as code},
-  author = {wst320727254-beep},
+  author = {lanwang-ai},
   year   = {2026},
-  url    = {https://github.com/wst320727254-beep/deep-ocean-slides},
+  url    = {https://github.com/lanwang-ai/deep-ocean-slides},
   note   = {Design tokens, python-pptx generator, HTML renderer and a 31-rule layout linter}
 }
 ```
